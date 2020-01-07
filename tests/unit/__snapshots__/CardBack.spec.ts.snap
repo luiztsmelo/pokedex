@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBack.vue renders correctly 1`] = `
+<div
+  class="card-back"
+>
+  <!---->
+   
+  <div
+    class="main-stats-container"
+  >
+    <div
+      class="box"
+    >
+      <span
+        class="label"
+      >
+        Max HP
+      </span>
+       
+      <span
+        class="number"
+      >
+        1071
+      </span>
+    </div>
+     
+    <div
+      class="box"
+    >
+      <span
+        class="label"
+      >
+        Max CP
+      </span>
+       
+      <span
+        class="number"
+      >
+        951
+      </span>
+    </div>
+  </div>
+   
+  <div
+    class="attacks-container"
+  >
+    <div
+      class="attacks-wrapper"
+    >
+      <h2
+        class="attacks-title"
+      >
+        Fast Attacks
+      </h2>
+       
+      <div
+        class="attacks-grid"
+      >
+        <div
+          class="header-row"
+        >
+          <span
+            class="name-label"
+          >
+            Attack
+          </span>
+           
+          <span
+            class="type-label"
+          >
+            Type
+          </span>
+           
+          <span
+            class="power-label"
+          >
+            Power
+          </span>
+        </div>
+         
+        <div
+          class="attack-row"
+        >
+          <span
+            class="attack-name"
+          >
+            Tackle
+          </span>
+           
+          <span
+            class="attack-type"
+            style="background-color: rgb(170, 170, 153);"
+          >
+            Normal
+          </span>
+           
+          <span
+            class="attack-power"
+          >
+            12
+          </span>
+        </div>
+        <div
+          class="attack-row"
+        >
+          <span
+            class="attack-name"
+          >
+            Vine Whip
+          </span>
+           
+          <span
+            class="attack-type"
+            style="background-color: rgb(119, 204, 85);"
+          >
+            Grass
+          </span>
+           
+          <span
+            class="attack-power"
+          >
+            7
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="attacks-wrapper"
+    >
+      <h2
+        class="attacks-title"
+      >
+        Special Attacks
+      </h2>
+       
+      <div
+        class="attacks-grid"
+      >
+        <div
+          class="header-row"
+        >
+          <span
+            class="name-label"
+          >
+            Attack
+          </span>
+           
+          <span
+            class="type-label"
+          >
+            Type
+          </span>
+           
+          <span
+            class="power-label"
+          >
+            Power
+          </span>
+        </div>
+         
+        <div
+          class="attack-row"
+        >
+          <span
+            class="attack-name"
+          >
+            Power Whip
+          </span>
+           
+          <span
+            class="attack-type"
+            style="background-color: rgb(119, 204, 85);"
+          >
+            Grass
+          </span>
+           
+          <span
+            class="attack-power"
+          >
+            70
+          </span>
+        </div>
+        <div
+          class="attack-row"
+        >
+          <span
+            class="attack-name"
+          >
+            Seed Bomb
+          </span>
+           
+          <span
+            class="attack-type"
+            style="background-color: rgb(119, 204, 85);"
+          >
+            Grass
+          </span>
+           
+          <span
+            class="attack-power"
+          >
+            40
+          </span>
+        </div>
+        <div
+          class="attack-row"
+        >
+          <span
+            class="attack-name"
+          >
+            Sludge Bomb
+          </span>
+           
+          <span
+            class="attack-type"
+            style="background-color: rgb(170, 85, 153);"
+          >
+            Poison
+          </span>
+           
+          <span
+            class="attack-power"
+          >
+            55
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
