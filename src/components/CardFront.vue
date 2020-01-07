@@ -2,7 +2,7 @@
   <div class="card-front">
     <span class="number">{{ pokemon.number }}</span>
     <div class="image-wrapper">
-      <img class="image" :src="`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${pokemon.number}.png`" :alt="pokemon.name">
+      <img class="image" :src="`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${pokemon.number}.png`" :alt="pokemon.name" loading="lazy">
     </div>
     <div class="info-wrapper">
       <h1 class="name">{{ pokemon.name }}</h1>
@@ -54,7 +54,7 @@ export default Vue.extend({
     justify-content: center;
     width: 100%;
     .image {
-      width: 55%;
+      width: 83%;
       height: auto;
       transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) all .22s;
       user-select: none;
@@ -96,6 +96,6 @@ export default Vue.extend({
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
 }
 .card-front:hover .image {
-  transform: scale(1.35) rotate(4deg);
+  transform: scale(1.25) rotate(4deg);
 }
 </style>

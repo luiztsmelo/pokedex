@@ -48,10 +48,11 @@ export default {
   }
   .pokemons-grid {
     display: grid;
-    grid-template-columns: repeat(3, 290px);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 360px;
     grid-gap: 32px;
     position: relative;
+    width: 100%;
     .loader-pokemons {
       position: absolute;
       left: 0;
