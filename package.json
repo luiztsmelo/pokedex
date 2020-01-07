@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
