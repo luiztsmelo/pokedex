@@ -1,4 +1,6 @@
-# pokedex
+# Pokédex
+
+[![Build Status](https://travis-ci.org/luiztsmelo/pokedex.svg?branch=master)](https://travis-ci.org/luiztsmelo/pokedex)
 
 ## Project setup
 ```
