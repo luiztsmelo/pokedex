@@ -1,6 +1,6 @@
 # Pokédex
 
-[![Build Status](https://travis-ci.org/luiztsmelo/pokedex.svg?branch=master)](https://travis-ci.org/luiztsmelo/pokedex)
+[![Build Status](https://travis-ci.org/luiztsmelo/pokedex.svg?branch=master)](https://travis-ci.org/luiztsmelo/pokedex) [![Coverage Status](https://coveralls.io/repos/github/luiztsmelo/pokedex/badge.svg?branch=master)](https://coveralls.io/github/luiztsmelo/pokedex?branch=master)
 
 ## Project setup
 ```
