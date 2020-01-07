@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="title">Pokedéx</h1>
+    <h1 class="title">Pokédex</h1>
     <div class="pokemons-grid">
       <Loader class="loader-pokemons" v-if="$apolloData.queries.pokemons.loading" />
       <PokemonCard v-for="pokemon in pokemons" :key="pokemon.id" :pokemon="pokemon" v-else />

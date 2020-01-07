@@ -4,16 +4,16 @@
     <div class="main-stats-container" v-if="!$apolloData.queries.pokemon.loading">
       <div class="box">
         <span class="label">Max HP</span>
-        <h1 class="number">{{ pokemon.maxHP }}</h1>
+        <span class="number">{{ pokemon.maxHP }}</span>
       </div>
       <div class="box">
         <span class="label">Max CP</span>
-        <h1 class="number">{{ pokemon.maxCP }}</h1>
+        <span class="number">{{ pokemon.maxCP }}</span>
       </div>
     </div>
     <div class="attacks-container" v-if="!$apolloData.queries.pokemon.loading">
-      <div class="attacks-wrapper" v-for="(attacks, index) in pokemonAttacks" :key="index">
-        <h1 class="attacks-title">{{ index === 0 ? 'Fast Attacks' : 'Special Attacks' }}</h1>
+      <div class="attacks-wrapper" v-for="(attacks, index) in Object.values(pokemon.attacks).slice(0, 2)" :key="index">
+        <h2 class="attacks-title">{{ index === 0 ? 'Fast Attacks' : 'Special Attacks' }}</h2>
         <div class="attacks-grid">
           <div class="header-row">
             <span class="name-label">Attack</span>
@@ -73,13 +73,6 @@ export default Vue.extend({
       },
     },
   },
-  computed: {
-    pokemonAttacks(): array {
-      const pokemonAttacks = Object.values(this.pokemon.attacks);
-      const pokemonAttacksWithoutType = pokemonAttacks.pop();
-      return pokemonAttacks;
-    },
-  },
 });
 </script>
 
@@ -118,7 +111,6 @@ export default Vue.extend({
       .number {
         font-size: 17px;
         font-weight: 700;
-        margin: 0;
       }
     }
   }

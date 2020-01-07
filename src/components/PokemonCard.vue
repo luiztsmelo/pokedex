@@ -24,10 +24,10 @@ export default Vue.extend({
   },
   methods: {
     flipCard(): void {
-      this.$refs.pokemonCard.style.transform = 'rotateY(180deg)';
+      (this.$refs.pokemonCard as HTMLElement).style.transform = 'rotateY(180deg)';
     },
     unflipCard(): void {
-      this.$refs.pokemonCard.style.transform = 'rotateY(0deg)';
+      (this.$refs.pokemonCard as HTMLElement).style.transform = 'rotateY(0deg)';
     },
     pokemonCardHandleClick(): void {
       if (this.routeQuery === this.pokemon.name) {
@@ -40,7 +40,7 @@ export default Vue.extend({
     },
   },
   computed: {
-    routeQuery(): string | undefined {
+    routeQuery(): string | (string | null)[] {
       return this.$route.query.q;
     },
   },
