@@ -41,13 +41,14 @@ export default {
   justify-content: center;
   padding: 4% 15%;
   .title {
-    font-size: 46px;
+    font-size: 44px;
     font-weight: 800;
-    margin: 0 0 60px 0;
+    margin: 0 0 55px 0;
+    text-align: center;
   }
   .pokemons-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 290px);
     grid-auto-rows: 360px;
     grid-gap: 32px;
     position: relative;
@@ -56,6 +57,24 @@ export default {
       left: 0;
       right: 0;
       margin: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home {
+    padding: 4% 7%;
+    .pokemons-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .home {
+    padding: 4% 7%;
+    .pokemons-grid {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 }

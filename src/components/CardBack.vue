@@ -93,7 +93,7 @@ export default Vue.extend({
   .main-stats-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 35px;
     padding-bottom: 2px;
     .box {
       display: flex;
