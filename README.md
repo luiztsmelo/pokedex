@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media1.giphy.com/media/q2wsGnr1MZjDa/source.gif">
+  <img src="https://media1.giphy.com/media/q2wsGnr1MZjDa/source.gif" width="200">
 </p>
 
 <h1 align="center">Pokédex</h1>
