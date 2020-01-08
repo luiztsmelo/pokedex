@@ -1,6 +1,13 @@
-# Pokédex
+<h1 align="center">CEP Promise</h1>
 
-[![Build Status](https://travis-ci.org/luiztsmelo/pokedex.svg?branch=master)](https://travis-ci.org/luiztsmelo/pokedex) [![Coverage Status](https://coveralls.io/repos/github/luiztsmelo/pokedex/badge.svg?branch=master)](https://coveralls.io/github/luiztsmelo/pokedex?branch=master)
+<p align="center">
+  <a href='https://travis-ci.org/luiztsmelo/pokedex'>
+    <img src='https://travis-ci.org/luiztsmelo/pokedex.svg?branch=master'/>
+  </a>
+  <a href='https://coveralls.io/github/luiztsmelo/pokedex?branch=master'>
+    <img src='https://coveralls.io/repos/github/luiztsmelo/pokedex/badge.svg?branch=master'/>
+  </a>
+</p>
 
 ## Project setup
 ```
