@@ -23,13 +23,18 @@ describe('PokemonCard.vue', () => {
   });
   test('renders correctly', () => {
     expect(wrapper.element).toMatchSnapshot()
+    expect(wrapper.vm.$route.query.q).toBe(undefined);
+    expect(pokemonCardDiv.attributes().style).toBe(undefined);
   });
   const pokemonCardDiv = wrapper.find('.pokemon-card');
-  pokemonCardDiv.trigger('click');
-  test('route query changes correctly on card click', () => {
+  test('click on unflipped pokemon card works fine', () => {
+    pokemonCardDiv.trigger('click');
     expect(wrapper.vm.$route.query.q).toBe('Bulbasaur');
-  });
-  test('card rotates correctly on card click', () => {
     expect(pokemonCardDiv.attributes().style).toBe('transform: rotateY(180deg);');
+  });
+  test('click on flipped pokemon card works fine', () => {
+    pokemonCardDiv.trigger('click');
+    expect(wrapper.vm.$route.query.q).toBe(undefined);
+    expect(pokemonCardDiv.attributes().style).toBe(undefined);
   });
 });

@@ -27,7 +27,7 @@ export default Vue.extend({
       (this.$refs.pokemonCard as HTMLElement).style.transform = 'rotateY(180deg)';
     },
     unflipCard(): void {
-      (this.$refs.pokemonCard as HTMLElement).style.transform = 'rotateY(0deg)';
+      (this.$refs.pokemonCard as HTMLElement).removeAttribute('style');
     },
     pokemonCardHandleClick(): void {
       if (this.routeQuery === this.pokemon.name) {

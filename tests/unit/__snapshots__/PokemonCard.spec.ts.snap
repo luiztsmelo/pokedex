@@ -3,8 +3,9 @@
 exports[`PokemonCard.vue renders correctly 1`] = `
 <div
   class="pokemon-card"
-  style="transform: rotateY(180deg);"
 >
-  <cardback-stub />
+  <cardfront-stub
+    pokemon="[object Object]"
+  />
 </div>
 `;
