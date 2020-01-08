@@ -1,4 +1,4 @@
-<h1 align="center">CEP Promise</h1>
+<h1 align="center">Pokédex</h1>
 
 <p align="center">
   <a href='https://travis-ci.org/luiztsmelo/pokedex'>
@@ -6,6 +6,9 @@
   </a>
   <a href='https://coveralls.io/github/luiztsmelo/pokedex?branch=master'>
     <img src='https://coveralls.io/repos/github/luiztsmelo/pokedex/badge.svg?branch=master'/>
+  </a>
+  <a href="http://standardjs.com/">
+    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg">
   </a>
 </p>
 
