@@ -24,9 +24,12 @@ describe('PokemonCard.vue', () => {
   test('renders correctly', () => {
     expect(wrapper.element).toMatchSnapshot()
   });
+  const pokemonCardDiv = wrapper.find('.pokemon-card');
+  pokemonCardDiv.trigger('click');
   test('route query changes correctly on card click', () => {
-    const pokemonCard = wrapper.find('.pokemon-card');
-    pokemonCard.trigger('click');
     expect(wrapper.vm.$route.query.q).toBe('Bulbasaur');
+  });
+  test('card rotates correctly on card click', () => {
+    expect(pokemonCardDiv.attributes().style).toBe('transform: rotateY(180deg);');
   });
 });
