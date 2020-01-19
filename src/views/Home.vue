@@ -43,7 +43,7 @@ export default {
   .title {
     font-size: 44px;
     font-weight: 800;
-    margin: 0 0 50px 0;
+    margin: 0 0 70px 0;
     text-align: center;
   }
   .pokemons-grid {
