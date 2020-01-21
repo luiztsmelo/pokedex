@@ -41,7 +41,7 @@ export default {
   justify-content: center;
   padding: 4% 15%;
   .title {
-    font-size: 46px;
+    font-size: 48px;
     font-weight: 800;
     margin: 0 0 75px 0;
     text-align: center;
