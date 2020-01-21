@@ -41,9 +41,9 @@ export default {
   justify-content: center;
   padding: 4% 15%;
   .title {
-    font-size: 47px;
+    font-size: 48px;
     font-weight: 800;
-    margin: 0 0 50px 0;
+    margin: 0 0 45px 0;
     text-align: center;
   }
   .pokemons-grid {
